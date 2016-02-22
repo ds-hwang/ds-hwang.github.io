@@ -3,6 +3,7 @@ layout: default
 title:  "프로듀스101 최윾정"
 date:   2016-02-22
 categories: produce101
+comments: true
 ---
 
 <style>
