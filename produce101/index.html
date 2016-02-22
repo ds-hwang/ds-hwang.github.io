@@ -1,0 +1,30 @@
+---
+layout: default
+title:  "빻요미 최윾정"
+date:   2016-02-22
+categories: produce101
+---
+
+<style>
+body {
+	margin: 0px;
+}
+img {
+    float: left;
+}
+</style>
+<h1>프로듀스101</h1>
+<h2>빻요미 최윾정 디시콘 모음</h2>
+<div id='holder'/>
+<script type="application/x-javascript">
+var N = 158;
+function draw(){
+	var holder = document.getElementById('holder');
+  for (i = 1; i < N; i++){
+    var img = document.createElement("img");
+    img.src = "images/" + i + ".gif";
+    holder.appendChild(img);
+  }
+}
+draw();
+</script>
