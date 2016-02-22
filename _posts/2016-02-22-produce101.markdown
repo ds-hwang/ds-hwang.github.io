@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "프로듀스101 최윾정"
 date:   2016-02-22
 categories: produce101
@@ -14,8 +14,7 @@ img {
     float: left;
 }
 </style>
-<h1>프로듀스101</h1>
-<h2>빻요미 최윾정 디시콘 모음</h2>
+<h1>빻요미 최윾정 디시콘 모음</h1>
 <div id='holder'/>
 <script type="application/x-javascript">
 var N = 158;
