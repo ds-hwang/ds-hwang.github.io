@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "빻요미 최윾정"
+title:  "프로듀스101 최윾정"
 date:   2016-02-22
 categories: produce101
 ---
@@ -22,7 +22,8 @@ function draw(){
 	var holder = document.getElementById('holder');
   for (i = 1; i < N; i++){
     var img = document.createElement("img");
-    img.src = "images/" + i + ".gif";
+    var gif_url = "assets/images/" + i + ".gif";
+    img.src = "{{ site.baseurl | prepend: site.url }}" + gif_url;
     holder.appendChild(img);
   }
 }
